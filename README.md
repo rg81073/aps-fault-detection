@@ -38,3 +38,11 @@ To push your changes forcefully.
 git push origin main -f To pull changes from github repo
 
 git pull origin main Note: origin--> contains url to your github repo main--> is your branch name
+
+.env file has
+```
+MONGO_DB_URL="mongodb://localhost:27017"
+AWS_ACCESS_KEY_ID="subbdbdssdcdj"
+AWS_SECRET_ACCESS_KEY="dhsbdhbcshbzbsdhb"
+
+```
