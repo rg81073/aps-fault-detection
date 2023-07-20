@@ -4,6 +4,9 @@ import json
 from dataclasses import dataclass
 # Provide the MongoDB localhost URL to connect python to MongoDB.
 import os
+
+
+
 @dataclass
 class EnvironmentVariable:
     mongo_db_url:str = os.getenv("MONGO_DB_URL")
